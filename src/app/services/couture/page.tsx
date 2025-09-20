@@ -173,7 +173,7 @@ export default function CustomCouture() {
             Book your complimentary consultation to begin the journey of creating your perfect custom piece.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/consultation" className="luxury-button-accent">
+            <Link href="/contact" className="luxury-button-accent">
               Book Consultation
             </Link>
             <a href="tel:+923218242415" className="luxury-button">

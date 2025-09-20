@@ -176,7 +176,7 @@ export default function Services() {
                       <p className="text-lg font-medium text-black">{service.price}</p>
                       <p className="text-sm text-gray-600">Timeline: {service.duration}</p>
                     </div>
-                    <Link href="/consultation" className="luxury-button-accent">
+                    <Link href="/contact" className="luxury-button-accent">
                       Book Consultation
                     </Link>
                   </div>
@@ -195,7 +195,7 @@ export default function Services() {
             Book a complimentary consultation to discuss your style goals and discover how our services can transform your wardrobe.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/consultation" className="luxury-button-accent">
+            <Link href="/contact" className="luxury-button-accent">
               Book Free Consultation
             </Link>
             <Link href="/contact" className="luxury-button">

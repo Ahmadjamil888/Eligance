@@ -19,7 +19,7 @@ export default function Contact() {
             Contact Us
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-gray-800 max-w-2xl mx-auto px-2">
-            Let's discuss your style vision and create something beautiful together
+            Let&apos;s discuss your style vision and create something beautiful together
           </p>
         </div>
       </section>

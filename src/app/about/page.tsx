@@ -177,7 +177,7 @@ export default function About() {
             Ready to experience the Élégance difference? Book your complimentary consultation and begin your style transformation journey.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/consultation" className="luxury-button-accent">
+            <Link href="/contact" className="luxury-button-accent">
               Book Consultation
             </Link>
             <Link href="/contact" className="luxury-button">

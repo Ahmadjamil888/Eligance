@@ -48,11 +48,11 @@ const portfolioItems = [
 
 const Portfolio = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 sm:mb-12 lg:mb-16">
           <h2 className="section-title">Our Work</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600 max-w-2xl mx-auto text-sm sm:text-base px-4">
             Explore our portfolio of bespoke designs and styling transformations. 
             Each project reflects our commitment to excellence and attention to detail.
           </p>
@@ -76,10 +76,10 @@ const Portfolio = () => {
                   <div className="text-xs font-medium tracking-wide uppercase text-gray-500 mb-2">
                     {item.category}
                   </div>
-                  <h3 className="font-serif text-xl font-medium mb-2 group-hover:text-gray-600 transition-colors">
+                  <h3 className="font-serif text-lg sm:text-xl font-medium mb-2 group-hover:text-gray-600 transition-colors">
                     {item.title}
                   </h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">
+                  <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
                     {item.description}
                   </p>
                 </div>

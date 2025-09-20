@@ -219,10 +219,10 @@ export default function Portfolio() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-serif text-4xl font-light mb-6">Ready to Create Something Beautiful?</h2>
           <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-            Let's discuss your vision and create a piece that's uniquely yours. Book your consultation today.
+            Let&apos;s discuss your vision and create a piece that&apos;s uniquely yours. Book your consultation today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/consultation" className="luxury-button-accent">
+            <a href="/contact" className="luxury-button-accent">
               Book Consultation
             </a>
             <a href="/contact" className="luxury-button">
