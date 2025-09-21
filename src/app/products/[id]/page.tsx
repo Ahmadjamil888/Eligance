@@ -31,8 +31,9 @@ const getProduct = (id: string) => {
   return products[id as keyof typeof products] || null;
 };
 
-export default function ProductDetail({ params }: { params: { id: string } }) {
-  const product = getProduct(params.id);
+export default async function ProductDetail({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const product = getProduct(id);
   const [selectedImage, setSelectedImage] = useState(0);
   const [selectedSize, setSelectedSize] = useState('');
   const [selectedColor, setSelectedColor] = useState('');
