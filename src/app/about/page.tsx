@@ -141,7 +141,7 @@ export default function About() {
                     with a vision to create truly personalized fashion experiences for discerning women.
                   </p>
                   <p>
-                    Her expertise spans custom couture, personal styling, and wardrobe consulting. Maryam's 
+                    Her expertise spans custom couture, personal styling, and wardrobe consulting. Maryam&apos;s 
                     approach combines traditional craftsmanship with contemporary design sensibilities, 
                     ensuring each piece is both timeless and uniquely personal.
                   </p>
@@ -172,7 +172,7 @@ export default function About() {
       {/* CTA Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-serif text-4xl font-light mb-6">Let's Create Something Beautiful Together</h2>
+          <h2 className="font-serif text-4xl font-light mb-6">Let&apos;s Create Something Beautiful Together</h2>
           <p className="text-gray-600 text-lg mb-8 leading-relaxed">
             Ready to experience the Élégance difference? Book your complimentary consultation and begin your style transformation journey.
           </p>

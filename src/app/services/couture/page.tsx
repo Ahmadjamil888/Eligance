@@ -39,7 +39,7 @@ export default function CustomCouture() {
               
               <div className="space-y-6">
                 <div>
-                  <h3 className="font-medium text-lg mb-3">What's Included</h3>
+                  <h3 className="font-medium text-lg mb-3">What&apos;s Included</h3>
                   <ul className="space-y-2">
                     <li className="flex items-start">
                       <span className="w-1.5 h-1.5 bg-black rounded-full mr-3 mt-2 flex-shrink-0"></span>
